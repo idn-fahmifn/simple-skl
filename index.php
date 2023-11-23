@@ -116,8 +116,8 @@
             </div>
             <div class="card-body">
                 <div class="input-group">
-                    <input type="text" name="" id="" class="input-task" placeholder="Masukan task ....">
-                    <button type="submit" class="btn-add"><b>+</b></button>
+                    <input type="text" id="task" class="input-task" placeholder="Masukan task ....">
+                    <button type="submit" onclick="addTask()" class="btn-add"><b>+</b></button>
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
                 </div>
             </div>
             <div class="card-body" id="list-data">
-                <div class="card-list">
+                <!-- <div class="card-list">
                     <div class="list-area">
                         <p>tugas 1</p>
                     </div>
@@ -182,12 +182,12 @@
                         <button type="submit" class="btn-check">Check</button>
 
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 </body>
 
-<!-- <script src="app.js"></script> -->
+<script src="app.js"></script>
 
 </html>
